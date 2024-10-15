@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Calendar, type WithoutChildrenOrChild } from 'bits-ui';
+	// view the source of the Bits UI calendar here: https://github.com/huntabyte/bits-ui/blob/next/packages/bits-ui/src/lib/bits/calendar/components/calendar.svelte
 	import { DateFormatter, getLocalTimeZone } from '@internationalized/date';
 
 	let {
